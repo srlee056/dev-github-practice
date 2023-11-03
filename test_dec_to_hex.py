@@ -4,7 +4,7 @@ import dec_to_hex as dh
 
 class TestDecimalToHexadecimal(unittest.TestCase):
     def test_positive_integer(self):
-        self.assertEqual(dh.decimal_to_hexadecimal(16), "10")
+        self.assertEqual(dh.decimal_to_hexadecimal(17), "11")
 
     def test_negative_integer(self):
         self.assertEqual(dh.decimal_to_hexadecimal(-16), "-10")
